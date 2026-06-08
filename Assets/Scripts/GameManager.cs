@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem confetti;
     [SerializeField] private LevelManager levelManager;
     [SerializeField] private GameObject winPanel;
 
@@ -45,8 +44,6 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator CompleteRoutine()
     {
-        confetti.Play();
-
         AudioManager.Instance.PlayLevelComplete();
 
         winPanel.SetActive(true);

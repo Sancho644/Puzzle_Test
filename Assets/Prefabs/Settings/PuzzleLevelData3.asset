@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2478ceae4e184c75954a9c47278b67c2, type: 3}
   m_Name: PuzzleLevelData3
   m_EditorClassIdentifier: Assembly-CSharp::PuzzleLevelData
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: ecd2ef32a7b9ae74495a59b2271f24e3, type: 3}
   pieces:
   - id: 0
     puzzleSprite: {fileID: 1835057345, guid: 7776d56da71de974c896f8eafbde1c92, type: 3}

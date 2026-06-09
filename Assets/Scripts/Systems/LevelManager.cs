@@ -11,10 +11,12 @@ namespace Systems
         [SerializeField] private PuzzleLevelData[] levels;
         [SerializeField] private Image background;
 
-        [Header("Prefabs")] [SerializeField] private GameObject slotPrefab;
+        [Header("Prefabs")] 
+        [SerializeField] private GameObject slotPrefab;
         [SerializeField] private GameObject piecePrefab;
 
-        [Header("Parents")] [SerializeField] private RectTransform referenceBoard;
+        [Header("Parents")] 
+        [SerializeField] private RectTransform referenceBoard;
         [SerializeField] private RectTransform slotsParent;
         [SerializeField] private RectTransform piecesParent;
 
